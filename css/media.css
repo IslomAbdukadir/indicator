@@ -22,6 +22,20 @@
         gap: 30px 120px;
     }
 
+    .why-video video,
+    .why-desc {
+        width: 668px;
+        height: 377px;
+    }
+
+    .why-desc {
+        padding: 0 0 0 25px;
+    }
+
+    .why-desc-title {
+        margin-bottom: 15px;
+    }
+
 }
 
 @media (max-width: 1336px) {
@@ -40,6 +54,17 @@
 
     .types-cards {
         gap: 30px 50px;
+    }
+
+    .why-video video,
+    .why-desc {
+        width: 570px;
+        height: 320px;
+    }
+
+    .why-desc-item {
+        font-size: 16px;
+        margin: 0px 0 10px 20px;
     }
 
 }
@@ -78,6 +103,12 @@
         gap: 30px 70px;
     }
 
+    .why-video video,
+    .why-desc {
+        width: 512px;
+        height: 400px;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -114,7 +145,7 @@
     .swiper-content {
         top: 20%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         max-width: 400px;
     }
 
@@ -122,12 +153,18 @@
         margin: 0 auto;
     }
 
-    .swiper-content { 
+    .swiper-content {
         text-align: center;
     }
 
     .types-cards {
         gap: 10px 70px;
+    }
+
+    .why-video video,
+    .why-desc {
+        width: 446px;
+        height: 400px;
     }
 
 }
@@ -142,13 +179,28 @@
         gap: 50px 100px;
     }
 
+    .why-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .why-video video,
+    .why-desc {
+        width: 100%;
+        height: 400px;
+    }
+
+    .why-desc-title {
+        text-align: center;
+    }
+
 }
 
 @media (max-width: 768px) {
 
     .container {
         max-width: 684px;
-    }  
+    }
 
 }
 
@@ -170,7 +222,7 @@
     .swiper-content {
         top: 25%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         max-width: 400px;
     }
 
@@ -272,12 +324,42 @@
         gap: 30px;
     }
 
+    .why-video video {
+        width: 370px;
+        height: 370px;
+    }
+
+    .why-desc {
+        width: 370px;
+        height: 500px;
+    }
+
 }
 
 @media (max-width: 390px) {
 
     .container {
         max-width: 360px;
+    }
+
+    .why-video video {
+        width: 320px;
+        height: 320px;
+    }
+
+    .why-desc {
+        width: 320px;
+        height: 400px;
+    }
+
+    .why-desc-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .why-desc-item {
+        font-size: 15px;
+        margin: 0px 0 5px 10px;
     }
 
 }
@@ -303,6 +385,16 @@
 
     .category .container {
         gap: 20px;
+    }
+
+    .why-video video {
+        width: 290px;
+        height: 290px;
+    }
+
+    .why-desc {
+        width: 290px;
+        height: 400px;
     }
 
 }
