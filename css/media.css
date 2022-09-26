@@ -17,6 +17,11 @@
         gap: 30px 70px;
     }
 
+    .catalog-cards {
+        justify-content: center;
+        gap: 30px 120px;
+    }
+
 }
 
 @media (max-width: 1336px) {
@@ -67,6 +72,10 @@
     .menu,
     .close {
         display: block;
+    }
+
+    .catalog-cards {
+        gap: 30px 70px;
     }
 
 }
@@ -185,6 +194,14 @@
         font-size: 32px;
     }
 
+    .catalog-cards {
+        gap: 30px;
+    }
+
+    .catalog-card {
+        width: 220px
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -199,6 +216,15 @@
 
     .swiper-txt {
         font-size: 26px;
+    }
+
+    .catalog-cards {
+        gap: 0;
+    }
+
+    .catalog-card {
+        width: 250px;
+        margin-bottom: 25px;
     }
 
 }
