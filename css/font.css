@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url(../fonts/PTSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    src: url(../fonts/PTSans-Bold.ttf);
+    font-weight: 700;
+}
+
+/* pt sans */
+
+/* sf */
+
+@font-face {
+    font-family: "SF";
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF";
+    src: url(../fonts/SFPRODISPLAYMEDIUM.OTF);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF";
+    src: url(../fonts/SFPRODISPLAYBOLD.OTF);
+    font-weight: 700;
+}
