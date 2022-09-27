@@ -4,6 +4,17 @@
         max-width: 1440px;
     }
 
+    .location-card-img,
+    .location-card-content {
+        max-width: 350px;
+        max-height: 350px;
+    }
+    
+    .services-cards {
+        justify-content: center;
+        gap: 50px 150px;
+    }
+
 }
 
 @media (max-width: 1440px) {
@@ -36,12 +47,27 @@
         margin-bottom: 15px;
     }
 
+    .location-card-img,
+    .location-card-content {
+        max-width: 320px;
+        max-height: 320px;
+    }
+
+    .services-cards {
+        gap: 50px 100px;
+    }
+
 }
 
 @media (max-width: 1336px) {
 
     .container {
         max-width: 1290px;
+    }
+
+    .location-card-img,
+    .location-card-content {
+        max-width: 400px;
     }
 
 }
@@ -107,6 +133,10 @@
     .why-desc {
         width: 512px;
         height: 400px;
+    }
+
+    .services-cards {
+        gap: 30px;
     }
 
 }
@@ -202,6 +232,10 @@
         max-width: 684px;
     }
 
+    .location-card-txt {
+        font-size: 16px;
+    }
+
 }
 
 
@@ -224,6 +258,20 @@
         left: 50%;
         transform: translate(-50%, -50%);
         max-width: 400px;
+    }
+
+    .location-card-img,
+    .location-card-content {
+        max-width: 290px;
+    }
+
+    .services-cards {
+        gap: 30px 5px;
+    }
+
+    .services-card-img {
+        max-width: 330px;
+        max-height: 250px;
     }
 
 }
@@ -252,6 +300,15 @@
 
     .catalog-card {
         width: 220px
+    }
+
+    .location-card {
+        flex-direction: column;
+    }
+
+    .location-card-img,
+    .location-card-content {
+        max-width: 390px;
     }
 
 }
@@ -362,12 +419,19 @@
         margin: 0px 0 5px 10px;
     }
 
+    .location-card-img,
+    .location-card-content {
+        max-width: 360px;
+    }
+
 }
 
 
 @media (max-width: 360px) {
 
-    .container {
+    .container,
+    .location-card-img,
+    .location-card-content {
         max-width: 320px;
     }
 
@@ -379,7 +443,9 @@
 
 @media (max-width: 320px) {
 
-    .container {
+    .container,
+    .location-card-img,
+    .location-card-content {
         max-width: 290px;
     }
 

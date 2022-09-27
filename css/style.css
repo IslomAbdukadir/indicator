@@ -3,6 +3,7 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css');
 
 :root {
     --accent: #47d698;
@@ -453,6 +454,116 @@ a {
     margin-bottom: 0;
 }
 
-
-
 /* why end */
+
+/* services start */
+
+.services {
+    padding: 50px 0;
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.services-card {
+    position: relative;
+    transition: .5s;
+}
+
+.services-card:hover {
+    box-shadow: 0 0 25px var(--accent);
+}
+
+.services-card-img {
+    max-width: 290px;
+    max-height: 270px;
+    overflow: hidden;
+    position: relative;
+}
+
+.services-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.service-card-link {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 111;
+    background: linear-gradient(to top, #000000 0%, rgba(0,0,0,.6) 40%, rgba(0,0,0,0) 60%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+/* services end */
+
+/* location start */
+
+.location {
+    padding: 50px 0;
+}
+
+.location-cards {
+    display: flex;
+    gap: 30px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.location-card {
+    display: flex;
+}
+
+.location-card-img,
+.location-card-content {
+    max-width: 390px;
+    max-height: 390px;
+    overflow: hidden;
+    background: #222;
+}
+
+.location-card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.location-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.location-card-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.location-card-txt {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--text);
+}
+
+.location-card-txt i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* location end */
