@@ -4,6 +4,7 @@
 @import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
 
 :root {
     --accent: #47d698;
@@ -147,6 +148,11 @@ a {
     color: var(--link);
     text-transform: uppercase;
     font-size: 20px;
+    transition: .5s;
+}
+
+.header-link:hover {
+    color: var(--accent);
 }
 
 .header-logo {
@@ -559,6 +565,11 @@ a {
     font-size: 18px;
     margin-bottom: 10px;
     color: var(--text);
+    transition: .5s;
+}
+
+.location-card-txt:hover {
+    color: var(--accent);
 }
 
 .location-card-txt i {
@@ -567,3 +578,47 @@ a {
 }
 
 /* location end */
+
+/* footer start */
+
+.footer {
+    background: #222;
+    padding: 50px 0 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2f2f2f;
+    padding-bottom: 50px;
+    flex-flow: wrap;
+}
+
+.footer-item {
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.footer-link {
+    color: var(--link);
+    transition: .5s;
+}
+
+.footer-link:hover {
+    color: var(--accent);
+}
+
+.footer-link i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer-span {
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    letter-spacing: 0.2px;
+}
+
+/* footer end */

@@ -311,6 +311,11 @@
         max-width: 390px;
     }
 
+    .footer .container {
+        justify-content: center;
+        gap: 30px;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -334,6 +339,11 @@
     .catalog-card {
         width: 250px;
         margin-bottom: 25px;
+    }
+
+    .footer-list {
+        max-width: 160px;
+        width: 100%;
     }
 
 }
@@ -422,6 +432,11 @@
     .location-card-img,
     .location-card-content {
         max-width: 360px;
+    }
+
+    .footer-list {
+        max-width: 250px;
+        width: 100%;
     }
 
 }
