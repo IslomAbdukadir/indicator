@@ -714,7 +714,101 @@ a {
     text-align: center;
     color: #ccc;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+}
+
+.info-cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.info-card-content {
+    margin-left: 30px;
+}
+
+.info-card-title {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.info-card-txt {
+    color: var(--text);
+    font-size: 20px;
 }
 
 /* info end */
+
+/* wecan start */
+
+.wecan-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.wecan-card {
+    width: 370px;
+    background: #222;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.wecan-card-img {
+    max-width: 370px;
+    max-height: 290px;
+    overflow: hidden;
+}
+
+.wecan-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.wecan-card-title {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.wecan-card-title::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: var(--accent);
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wecan-card-txt {
+    font-size: 18px;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.wecan-card-list {
+    list-style: disc;
+    margin-left: 15px;
+}
+
+.wecan-card-item {
+    color: var(--text);
+    margin-bottom: 5px;
+}
+
+/* wecan end */

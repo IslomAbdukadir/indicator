@@ -9,7 +9,7 @@
         max-width: 350px;
         max-height: 350px;
     }
-    
+
     .services-cards {
         justify-content: center;
         gap: 50px 150px;
@@ -57,6 +57,23 @@
         gap: 50px 100px;
     }
 
+    .info-card {
+        max-width: 630px;
+    }
+
+    .info-card-title {
+        font-size: 24px;
+    }
+
+    .info-card-txt {
+        font-size: 18px;
+    }
+
+    .wecan-cards {
+        justify-content: center;
+        gap: 30px;
+    }
+
 }
 
 @media (max-width: 1336px) {
@@ -68,6 +85,11 @@
     .location-card-img,
     .location-card-content {
         max-width: 400px;
+    }
+
+    .info-txt {
+        font-size: 18px;
+        margin: 0 auto 10px;
     }
 
 }
@@ -91,6 +113,14 @@
     .why-desc-item {
         font-size: 16px;
         margin: 0px 0 10px 20px;
+    }
+
+    .info-card-content {
+        margin-left: 10px;
+    }
+
+    .info-card {
+        max-width: 550px;
     }
 
 }
@@ -139,6 +169,10 @@
         gap: 30px;
     }
 
+    .info-card {
+        max-width: 500px;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -150,6 +184,10 @@
     .swiper-title,
     .swiper-txt {
         text-shadow: 1px 1px 50px #fff;
+    }
+
+    .info-card {
+        max-width: 490px;
     }
 
 }
@@ -195,6 +233,14 @@
     .why-desc {
         width: 446px;
         height: 400px;
+    }
+
+    .info-cards {
+        justify-content: center;
+    }
+
+    .info-card {
+        max-width: 700px;
     }
 
 }
@@ -314,6 +360,33 @@
     .footer .container {
         justify-content: center;
         gap: 30px;
+    }
+
+    .info-txt,
+    .wecan-card-txt,
+    .info-card-txt {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .wecan-card {
+        margin-bottom: 0;
+    }
+
+    .banner-title {
+    font-size: 36px;
+    }
+
+    .banner-subtitle {
+    font-size: 24px;
+    }
+
+    .banner-video video {
+        height: 480px;
+    }
+
+    .info-card-title {
+        font-size: 18px;
     }
 
 }
