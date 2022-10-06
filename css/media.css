@@ -15,6 +15,15 @@
         gap: 50px 150px;
     }
 
+    .wecan-cards {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .send-form input {
+        width: 470px;
+    }
+
 }
 
 @media (max-width: 1440px) {
@@ -69,9 +78,12 @@
         font-size: 18px;
     }
 
-    .wecan-cards {
-        justify-content: center;
-        gap: 30px;
+    .trade-card {
+        max-width: 430px;
+    }
+
+    .send-form input {
+        width: 430px;
     }
 
 }
@@ -90,6 +102,14 @@
     .info-txt {
         font-size: 18px;
         margin: 0 auto 10px;
+    }
+
+    .trade-card {
+        max-width: 400px;
+    }
+
+    .send-form input {
+        width: 400px;
     }
 
 }
@@ -121,6 +141,14 @@
 
     .info-card {
         max-width: 550px;
+    }
+
+    .trade-card {
+        max-width: 360px;
+    }
+
+    .send-form input {
+        width: 360px;
     }
 
 }
@@ -173,6 +201,15 @@
         max-width: 500px;
     }
 
+    .trade-cards {
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .send-form input {
+        width: 330px;
+    }
+
 }
 
 @media (max-width: 1024px) {
@@ -188,6 +225,11 @@
 
     .info-card {
         max-width: 490px;
+    }
+
+    .send-form input {
+        width: 320px;
+        padding: 15px;
     }
 
 }
@@ -374,11 +416,11 @@
     }
 
     .banner-title {
-    font-size: 36px;
+        font-size: 36px;
     }
 
     .banner-subtitle {
-    font-size: 24px;
+        font-size: 24px;
     }
 
     .banner-video video {

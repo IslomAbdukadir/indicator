@@ -66,57 +66,69 @@
     </header>
     <main class="main">
         <section class="banner">
-            <div class="banner-video">
-                <video src="../../video/1.mp4" autoplay muted loop></video>
+            <div class="banner-img">
+                <img src="../../img/banners/banner1.jpg">
             </div>
             <div class="container">
-                <h2 class="banner-title">Техническое обслуживание</h2>
-                <h3 class="banner-subtitle">Забота о вашем компьютере</h3>
+                <h2 class="banner-title" style="text-align: left;">Сдать по трейд-ин</h2>
+                <h3 class="banner-subtitle" style="text-align: left;max-width: 700px;">Хотите сменить старый компьютер
+                    на новый со скидкой?</h3>
             </div>
         </section>
         <section class="info">
             <div class="container">
-                <h2 class="info-title title">Техническое обслуживание</h2>
+                <h2 class="info-title title">Trade-in</h2>
                 <p class="info-txt">
-                    Компьютер, так же, как и любая другая машина, нуждается в регулярном техническом обслуживании. Это
-                    залог стабильной, эффективной и долгой работы всей системы. Не стоит пренебрегать состоянием своего
-                    ПК, так как это может привести к необратимым последствиям.
+                    Хотите сменить старый компьютер на новый со скидкой? Специально для вас у нас действует программа
+                    трейд-ин. Мы выкупаем устаревший ПК в зачет цены вашего нового мощного решения от INDICATOR!
                 </p>
-                <div class="info-box">
-                    <div class="info-box-img">
-                        <img src="../../img/services/10.jpg" alt="">
+            </div>
+        </section>
+        <section class="trade">
+            <div class="container">
+                <h3 class="trade-title title">Получите скидку на новый компьютер</h3>
+                <div class="trade-cards">
+                    <div class="trade-card">
+                        <lottie-player src="../../img/services/list.json" background="transparent" speed="1"
+                            style="width: 150px; height: 150px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="trade-card-title">1. Отправьте заявку на оценку</h3>
+                        <p class="trade-card-txt">Перед подачей заявки удостоверьтесь в правильном наименовании комплектующих.</p>
                     </div>
-                    <div class="info-boxes">
-                        <div class="info-box-box">
-                            <lottie-player src="../../img/services/hot.json" background="transparent"
-                                speed="0.5" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
-                                <p class="info-box-txt">
-                                    Перегрев и поломка комплектующих
-                                </p>
-                        </div>
-                        <div class="info-box-box">
-                            <lottie-player src="../../img/services/coin.json" background="transparent"
-                                speed="0.5" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
-                                <p class="info-box-txt">
-                                    Дорогостоящий ремонт
-                                </p>
-                        </div>
-                        <div class="info-box-box">
-                            <lottie-player src="../../img/services/!.json" background="transparent"
-                                speed="0.5" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
-                                <p class="info-box-txt">
-                                    Короткое замыкание
-                                </p>
-                        </div>
-                        <div class="info-box-box">
-                            <lottie-player src="../../img/services/clock.json" background="transparent"
-                                speed="0.5" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
-                                <p class="info-box-txt">
-                                    Сокращение срока службы ПК
-                                </p>
-                        </div>
+                    <div class="trade-card">
+                        <lottie-player src="../../img/services/monitor.json" background="transparent" speed="1"
+                            style="width: 150px; height: 150px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="trade-card-title">2. Получите оценку</h3>
+                        <p class="trade-card-txt">Наш эксперт произведёт предварительную оценку и предоставит скидку на новый ПК.</p>
+
+                    </div>
+                    <div class="trade-card">
+                        <lottie-player src="../../img/services/check.json" background="transparent" speed="1"
+                            style="width: 150px; height: 150px;" loop autoplay>
+                        </lottie-player>
+                        <h3 class="trade-card-title">3. Воспользуйтесь скидкой</h3>
+                        <p class="trade-card-txt">Оставшуюся сумму можно доплатить картой или наличными.</p>
+
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="send">
+            <div class="container">
+                <h2 class="send-title title">Оцените свой компьютер</h2>
+                <form action="" class="send-form">
+                    <input type="text" placeholder="Контактное лицо *" required>
+                    <input type="email" placeholder="Email *" required>
+                    <input type="text" placeholder="Телефон для связи *" required>
+                    <input type="text" placeholder="Процессор *" required>
+                    <input type="text" placeholder="Видеокарта">
+                    <input type="text" placeholder="Материнская плата">
+                    <input type="text" placeholder="Объем оперативной памяти">
+                    <input type="text" placeholder="Блок питания">
+                    <input type="text" placeholder="SSD/HDD">
+                </form>
+                <a href="#!" class="send-form-btn btn">Отправить заявку</a>
             </div>
         </section>
         <section class="wecan">
@@ -173,94 +185,6 @@
                             <li class="wecan-card-item">Обслужим кастомное водяное охлаждение</li>
                             <li class="wecan-card-item">Оптимизируем ОС и обновим драйвера</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="faqs">
-            <div class="container">
-                <h2 class="faqs-title title">FAQ</h2>
-                <div class="accordion">
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Что такое апгрейд компьютера? Зачем его нужно делать?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Апгрейд компьютера – замена, добавление компонентов ПК на более новые. Это увеличивает
-                                его производительность и расширяет функциональность.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Что такое модернизация компьютеров? А что такое апгрейд компьютеров? Это разные вещи?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Это два разных названия одного и того же – улучшения компьютера.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Вы делаете компьютер на заказ?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Да, мы их делаем. Для этого свяжитесь с нами по телефону <a href="tel:+998932305555"
-                                    style="color: #fff; text-decoration: underline;">+998 (93) 230-55-55</a> или по
-                                форме обратной связи.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Можно ли сделать апгрейд ноутбука?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Можно. Мы добавим вашему нотбуку оперативной памяти (RAM), установим SSD-накопитель и
-                                жёсткий диск (HDD).
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Сколько стоит апгрейд компьютера?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Стоимость определяется в зависимости от заменяемых компонентов и сложности
-                                предполагаемых работ.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Как сделать апгрейд компьютера самостоятельно?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Мы не рекомендуем нашим клиентам заниматься апгрейдом компьютера/ноутбука своими силами,
-                                если у них нет в этом практического опыта или знаний. Неумелая попытка модификации может
-                                повредить «здоровью» ПК, и он станет работать ещё хуже. Доверяйте этот деликатный
-                                процесс профессионалам.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <div class="accordion-item-header">
-                            Что нужно купить для компьютера чтобы улучшить производительность?
-                        </div>
-                        <div class="accordion-item-body">
-                            <div class="accordion-item-body-content">
-                                Для получения подробной консультации насчёт улучшения вашего компьютера вы можете
-                                связаться с нашими специалистами. Позвоните по телефону <a href="tel:+998932305555"
-                                    style="color: #fff; text-decoration: underline;">+998 (93) 230-55-55</a> , напишите
-                                нам на сайте по форме обратной связи.
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
