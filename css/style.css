@@ -289,7 +289,7 @@ a {
     align-items: center;
     justify-content: center;
     height: 100%;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -405,6 +405,24 @@ a {
     font-size: 18px;
     color: #fff;
     text-align: center;
+}
+
+.catalog-list {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+    gap: 30px;
+}
+
+.catalog-link {
+    color: var(--link);
+    font-size: 18px;
+}
+
+.catalog-link.active {
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 3px;
 }
 
 /* catalog end */
