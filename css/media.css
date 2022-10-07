@@ -232,6 +232,14 @@
         padding: 15px;
     }
 
+    .info-box-txt {
+        max-width: 150px;
+    }
+
+    .banner-subtitle {
+        max-width: 500px;
+    }
+
 }
 
 @media (max-width: 992px) {
@@ -285,6 +293,14 @@
         max-width: 700px;
     }
 
+    .info-box {
+        flex-direction: column;
+    }
+
+    .info-box-txt {
+        max-width: 200px;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -324,6 +340,15 @@
         font-size: 16px;
     }
 
+    .banner-title {
+        font-size: 36px;
+    }
+
+    .banner-subtitle {
+        max-width: 400px;
+        font-size: 24px;
+    }
+
 }
 
 
@@ -360,6 +385,10 @@
     .services-card-img {
         max-width: 330px;
         max-height: 250px;
+    }
+
+    .info-box-txt {
+        max-width: 150px;
     }
 
 }
@@ -514,6 +543,14 @@
     .why-desc {
         width: 370px;
         height: 500px;
+    }
+
+    .banner-title {
+        font-size:24px;
+    }
+
+    .banner-subtitle {
+        font-size: 18px;
     }
 
 }
